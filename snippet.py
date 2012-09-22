@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+#Script to display the contents of the document selected.
 import cgi, cgitb
 print "Content-type:text/html\r\n\r\n"
 
