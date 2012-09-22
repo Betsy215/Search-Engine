@@ -19,5 +19,7 @@ userokbm25.py                 Code for processing user entered query and display
 snippet.py		      Code to display the actual data in the document using the click on the link of the document.
 
 Locations:
+The folder named 'files' should be present in the directory where createIndex.py is to be run. This is because to recude significant computing time,
+individual files are created for all the unique words in the corpus and their information is just updated in these files.
 The webinterface.html,userokbm25.py,snippet.py,common_words,porterStemmer files along with the generated files (file1,file2,newindex.txt,parseoutputfile1.txt) should be kept in the /usr/lib/cgi-bin folder on a machine to be able to view via browser.
 The Inverted Index can be created anywhere on a machine. 
