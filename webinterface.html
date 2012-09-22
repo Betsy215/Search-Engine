@@ -1,0 +1,19 @@
+#!/usr/bin/python
+#CGI script for GUI of search engine.
+print "Content-type:text/html; image/jpg\n\n"
+print '<html>'
+print '<head>'
+print "<title>Kedar's CACM search</title>"
+print '</head>'
+print '<body>'
+print '<center>'
+print '<h1>Enter the query string in the textbox</h1>'
+print '<form action="/cgi-bin/userokbm25.py" method="get">'
+print '<input type="text" name="query">  <br />'
+print '<input type="submit" value="Search"> <br />'
+#print '<img src="/var/www/html/fatbee.jpg" height="100" width="100"></img>'
+print '</form>'
+print '</center>'
+print '</body>'
+print '</html>'
+
