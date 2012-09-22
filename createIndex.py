@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#file to parse the CACM file.
+#file to parse the CACM file, create the intermediate files necessary to create the inverted index and the inverted index itself.
 from porterStemmer import PorterStemmer
 from collections import defaultdict
 import os.path
