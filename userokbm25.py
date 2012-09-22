@@ -78,10 +78,6 @@ file1 = open("file1","r").readlines()
 for key in queryhashmap.keys():
     query = queryhashmap[key].split()
     querydict = {}
-    #for term in query:
-    #    querywordcount[term] += 1
-    #for words in querywordcount.keys():
-    #    querydict[words] = querywordcount[words]/(querywordcount[words] + 0.5 + 1.5*float(len(querywordcount.keys())))
     use = {}
     for term in query:
         ctf = 0 
